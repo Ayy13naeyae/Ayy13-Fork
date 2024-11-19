@@ -73,12 +73,19 @@
 #     print(num)
 ###########
 #empty list
-import random
-rannums = [] #have a list of numbers
-while len(rannums) < 6:
-    num = random.radint(1,47)
-    if num not in rannums:
-        rannums.append(num)
-print(rannums)
+# import random
+# rannums = [] #have a list of numbers
+# while len(rannums) < 6:
+#     num = random.radint(1,47)
+#     if num not in rannums:
+#         rannums.append(num)
+# print(rannums)
+############
+#MULTIPLICATION TABLE
+number = int(input("what number? "))
+for i in range(1,13):
+    print(number, "x" , i , "=" , number * i)
+
+
 
 
